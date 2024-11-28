@@ -1,0 +1,14 @@
+Ejercicio1
+grep -A25 -B1 "SEMANAS" consumos.txt >> volcado.txt
+
+Ejercicio 2
+touch a.txt d.txt s.txt
+grep -A7 "100" volcado.txt | grep -v "*" > a ****** grep -A7 -w "40" volcado.txt | grep -v "*" > d
+
+Ejercicio 3
+grep -w "TOTAL" totales.txt > volcado2.txt
+grep -w "L" consumos.txt >> volcado2.txt
+grep -w "sem." consumos.txt | grep -w -A5 "140" totales.txt >> volcado2.txt
+
+Ejercicio4
+grep -v "2.." totales.txt
